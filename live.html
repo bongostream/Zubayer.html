@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            background-color: #00005f;
+            background-color: #000000;
             margin: 0; /* Removed margin: 2; */
             overflow: hidden;
         }
@@ -18,12 +17,21 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <div style="text-align: center;">
-        <h4><font color="White">SELECT "HD/SD" OPTION FOR ENGLISH STREAM</font></h4>
+    
+<div style="text-align: center;">
+        <div style="background-color: #ffffff; padding: 1px; display: inline-block; border-radius: 5px;">
+            <!-- Wrapping the h4 and image in an anchor tag -->
+            <a href="https://t.me/bongostream">
+                <h4 style="color: rgb(20, 155, 233); display: flex; align-items: center; font-size: 20px;">
+                    <img src="https://telegra.ph/file/c3da45210b1a2f4cd9635.jpg" alt="Image" style="height: 40px; width: auto; margin-right: 10px;">
+                    BONGO STREAM
+                </h4>
+            </a>
+        </div>
     </div>
-
-    <div id="player-container" style="position: relative; width: 200%; height: 600px;">
-        <iframe id="video-iframe" frameborder="0" allowfullscreen="true" style="position: normal; top: 0; left: 0; width: 100%; height: 300%;"></iframe>
+    
+    <div id="player-container" style="position: relative; width: 100%; height: 400px;">
+        <iframe id="video-iframe" frameborder="0" allowfullscreen="true" style="position: normal; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
     <script>
@@ -37,25 +45,26 @@
         window.addEventListener("popstate", updateIframeSrc);
     </script>
 
-<div style="border: 1px solid teal; border-radius: 2px; background: #f0f8ff; display: flex; align-items: center; padding: 7px; justify-content: space-between;">
-    <div class="header">
-        <center>
-            <div class="end">
-                <a href="https://bdstreams.bio.link/">
-                    <!-- Added style attribute to add a red border -->
-                    <img src="https://telegra.ph/file/c3da45210b1a2f4cd9635.jpg" width="100%" height="100px" style="border: 5px solid red;">
-                </a>
+    <footer>
+        <div style="border: 1px solid rgb(0, 0, 0); border-radius: 5px; background: #80afd8; display: flex; align-items: center; padding: 7px; justify-content: space-between;">
+            <div class="header">
+                <center>
+                    <div class="end">
+                        <a href="https://t.me/bongostream">
+                            <!-- Added style attribute to add a red border -->
+                            <img src="https://telegra.ph/file/c3da45210b1a2f4cd9635.jpg" width="100%" height="100px" style="border: 5px solid rgb(255, 72, 0);">
+                        </a>
+                    </div>
+                </center>
+                <br>
             </div>
-        </center>
-        <br>
-    </div>
 
-    <span style="display: flex; align-items: center;">
-        <i class="fa fa-telegram" style="font-size:24px;color:#004F7A;"></i>
-        <span style="font-weight: bold; margin-left: 10px; font-size: 0.9rem !important;">Telegram Channel</span>
-    </span>
-    <a class="seoquake-nofollow" href="https://t.me/+XpIFsJPFHhAwNTFl" rel="nofollow noopener noreferrer" style="text-decoration: none; background: #004F7A; color: white; padding: 5px 10px; border-radius: 2px; flex-shrink: 0;" target="_blank">Join Now</a>
-</div>
-
+            <span style="display: flex; align-items: center;">
+               
+                <span style="font-weight: bold; margin-left: 50px; font-size: 25px !important;"> Join Telegram Channel</span>
+            </span>
+            <a class="seoquake-nofollow" href="https://t.me/bongostream" rel="nofollow noopener noreferrer" style="text-decoration: none; background: #000000; color: white; padding: 5px 10px; border-radius: 5px; flex-shrink: 0;" target="_blank">Join Now</a>
+        </div>
+    </footer>
 </body>
 </html>
